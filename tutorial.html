@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta name="description" content="HOW TO CREATE A CROCHET KEYCHAIN: Learn how to create your own personalized keychains with our step-by-step guide. ">
+    <title>HOW TO CREATE A CROCHET KEYCHAIN</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+
+        }
+        header {
+            background-color:pink;
+            color: rgb(20, 20, 20);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1{
+            margin: 0;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+            
+        }
+        nav {
+            background-color: black;
+            overflow: hidden;
+           text-align: center;
+           
+        }
+        nav a {
+            color: aliceblue;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        } 
+        nav a:hover {
+            background-color:pink;
+            color: bisque;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: aliceblue;
+            border-radius: 8px;
+            text-align: center;
+        }
+        section image {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        
+
+        h2 {
+            color: #333;
+    
+        
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0%;
+            width: 100%;
+            bottom: 0;
+        }
+        .tutorial-step{
+            background-color: aqua;
+            margin: 10px 0;
+        }
+        .gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+    .animal {
+      cursor: pointer;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      background: white;
+      transition: transform 0.2s;
+    }
+    .animal:hover {
+      transform: scale(1.05);
+    }
+    .animal img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background: rgba(0,0,0,0.6);
+    }
+    .modal-content {
+      background:pink;
+      margin: 10% auto;
+      padding: 20px;
+      width: 60%;
+      border-radius: 10px;
+      position: relative;
+    }
+    .close {
+      color: #aaa;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+         .item {
+            width: 200px;
+            text-align: center;
+        }
+         .item video {
+            width: 170%;
+            height: auto;
+            cursor: pointer;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+            </style>
+            </head>
+            
+        </header>
+</head>
+<body>
+</body>
+
+    <header>
+        <img src="logo.png" alt="1_logo" class="responsive-image">
+        <h1> CROCHET KEYCHAIN TUTORIAL</h1>
+        <P>Learn how to create your personalized with my simple guide!</P>
+        <header>
+            <nav>
+                <a href="INDEX.html">Home</a> 
+                <a href="about.html">About</a>
+                <a href="tutorial.html">Tutorial</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+            
+    
+<div class="gallery">
+  <div class="animal" onclick="showModal('Crochet Ghost Keychain')">
+    <img src="ghost.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Letter Keychain')">
+    <img src="letter.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Flower Keychain')">
+    <img src="flower.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Octopus Keychain')">
+    <img src="2.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Sunflower Keychain')">
+    <img src="sunflower.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Bini Flower Keychain')">
+    <img src="BINI.jpg" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Key Wrist Keychain')">
+    <img src="key.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Hat Keychain')">
+    <img src="hat.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Bow Keychain')">
+    <img src="bow keychain.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Puff Keychain')">
+    <img src="puff.jfif" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Duch Keychain')">
+    <img src="DUCK.jpg" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Cherry Keychain')">
+    <img src="CHERRY.jpg" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Heart Keychain')">
+    <img src="HEART.jpg" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Cupcake Keychain')">
+    <img src="CUPCAKE.jpg" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Panda Keychain')">
+    <img src="PANDA.jpg" alt="CROCHET">
+  </div>
+  <div class="animal" onclick="showModal('Crochet Rose Keychain')">
+    <img src="ROSE.jpg" alt="CROCHET">
+  </div>
+  
+ 
+</div>
+
+<div id="animalModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2 id="animalTitle"></h2>
+    <p id="animalDescription"></p>
+  </div>
+</div>
+
+<script>
+  function showModal(title, description) {
+    document.getElementById('animalTitle').textContent = title;
+    document.getElementById('animalDescription').textContent = description;
+    document.getElementById('animalModal').style.display = 'block';
+  }
+
+  function closeModal() {
+    document.getElementById('animalModal').style.display = 'none';
+  }
+
+  window.onclick = function(event) {
+    const modal = document.getElementById('animalModal');
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+
+
+    </div>
+
+<footer>
+    <P>&copy2025 Crochet Keychain Tutorials. All Rights Reserved.</P>
+</footer>
